@@ -1,0 +1,57 @@
+import java.util.ArrayList;
+import java.util.List;
+
+class Proyecto {
+    String nombre; 
+    List<Producto> stock; 
+
+    public Proyecto(String nombre) {
+        this.nombre = nombre;
+        this.stock = new ArrayList<>();
+    }
+
+    public void agregarProducto(Producto producto) {
+        stock.add(producto);
+    }
+
+    public void mostrarEstado() {
+        System.out.println("\nNombre de la tienda: " + nombre);
+        for (Producto producto : stock) {
+            System.out.println("Producto: " + producto.nombre + " - Estado: " + producto.estado);
+        }
+    }
+}
+
+class Producto {
+    String nombre; 
+    String estado; 
+
+    public Producto(String nombre) {
+        this.nombre = nombre;
+        this.estado = "Disponible"; 
+    }
+
+    public void actualizarEstado(String nuevoEstado) {
+        this.estado = nuevoEstado;
+    }
+}
+
+public class PaginaWeb {
+    public static void main(String[] args) {
+        
+        Proyecto proyecto = new Proyecto("Clothing Store");
+
+        Producto producto1 = new Producto("Camisa");
+        Producto producto2 = new Producto("Pantalón");
+        proyecto.agregarProducto(producto1);
+        proyecto.agregarProducto(producto2);
+
+        proyecto.mostrarEstado();
+
+        producto1.actualizarEstado("Vendido");
+
+        System.out.println("\nEstado actualizado de la pagina web:");
+        proyecto.mostrarEstado();
+    }
+}
+
