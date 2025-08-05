@@ -2,8 +2,14 @@ Codigo de programa:
 Elaborado y exportado de Android estudio le hice para que emule en web ,ya que mi Computador no es suficente bueno paera arrancar el emualador movil que tiene y uni todos l0os coidos que tiene me guide por videos que pondre :
 
 Francisco Rivera. (2022, 14 septiembre). Sistema para gimnasio (PHP, MySQL, Vue, Vuetify) [Vídeo]. YouTube. https://www.youtube.com/watch?v=_LhmaQmGO9o
+
+
 MoureDev by Brais Moure. (2020, 17 enero). ANDROID STUDIO: COMO Crear una APP (para Principiantes) 📲 [Tutorial] [Vídeo]. YouTube. https://www.youtube.com/watch?v=BQaxPwZWboA
+
+
+
 Yo Androide. (2021, 18 febrero). 😎 ANDROID STUDIO DESDE CERO PARA PRINCIPIANTES 2023 | CREAR UNA APLICACION [Vídeo]. YouTube. https://www.youtube.com/watch?v=juO5H1PBeII
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -11,7 +17,6 @@ Yo Androide. (2021, 18 febrero). 😎 ANDROID STUDIO DESDE CERO PARA PRINCIPIANT
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AmazonasGYM - Sistema de Reservas para Gimnasios</title>
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
