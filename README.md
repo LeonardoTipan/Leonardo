@@ -17,6 +17,7 @@ Yo Androide. (2021, 18 febrero). 😎 ANDROID STUDIO DESDE CERO PARA PRINCIPIANT
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AmazonasGYM - Sistema de Reservas para Gimnasios</title>
+  "https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
